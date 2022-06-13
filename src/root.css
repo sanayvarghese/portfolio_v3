@@ -1,0 +1,100 @@
+:root {
+  --primary-color: #101010;
+  --secondary-color: #b2a2a2;
+  --navtext-main: #dddddd;
+  --blue-main: #07bbff;
+  --name-text-color: #dbdbdb;
+  --violet-color: #bf4bf8;
+  --green-color: #09f755;
+  --selection-color: #313131;
+  --icon-color: #737272;
+  --dark-violet: #7852aa;
+  --orange-color: #aa4f4f;
+  --dark-blue: #0f1622e3;
+  --light-violet: #9684a5;
+}
+@font-face {
+  font-family: Cascadia Code;
+  src: url(../public/fonts/CascadiaCode.ttf);
+}
+@font-face {
+  font-family: Calibre-Bold;
+  src: url(../public/fonts/CalibreBold.otf);
+}
+@font-face {
+  font-family: Calibre-SemiBold;
+  src: url(../public/fonts/CalibreSemibold.otf);
+}
+@font-face {
+  font-family: Calibre;
+  src: url(../public/fonts/CalibreRegular.otf);
+}
+@font-face {
+  font-family: Calibri;
+  src: url(../public/fonts/calibri-regular.ttf);
+}
+
+* {
+  font-family: "Cascadia Code";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  background: var(--primary-color);
+  border: #dddf;
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: #00000070;
+  border-radius: 10%;
+  border: #dddf;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    rgba(182, 48, 175, 0.5),
+    rgba(73, 32, 168, 0.5),
+    rgba(38, 52, 255, 0.5)
+  );
+  border-radius: 100px;
+}
+/* 
+::selection {
+  text-shadow: none;
+  background: var(--selection-color);
+  color: var(--name-text-color);
+  opacity: 1;
+} */
+img {
+  user-select: none;
+}
+
+.dp-none {
+  display: none;
+}
+
+@keyframes reveal {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

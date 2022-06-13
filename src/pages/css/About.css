@@ -1,0 +1,286 @@
+.about-main {
+  color: #969696;
+  margin-inline: 8rem;
+  margin-top: 1rem;
+  height: 100%;
+}
+.header_about {
+  color: var(--name-text-color);
+  font-size: 1.8rem;
+  font-weight: bolder;
+  font-family: monospace;
+}
+.header_about::before {
+  content: "02. ";
+  color: var(--blue-main);
+}
+.about-txt {
+  flex-direction: column;
+  height: 300px;
+  width: 35rem;
+  word-wrap: break-word;
+  font-size: 1.2rem;
+  margin-block: 2rem;
+}
+::selection {
+  background: #d4d4d4 !important;
+  opacity: 1;
+  color: black !important;
+  text-shadow: none;
+}
+
+.para1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #9856be;
+}
+.para2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #8756be;
+}
+.para3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #6856be;
+}
+
+.row_about {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5rem;
+}
+
+.circle {
+  width: 350px;
+  height: 350px;
+  margin-left: 10%;
+  background-color: transparent;
+  border-radius: 50%;
+  /* align-self: center; */
+  /* justify-content: center; */
+  /* border: 5px solid var(--blue-main); */
+}
+.circle:hover {
+  transition: all 0.2s ease;
+  border: 5px solid var(--blue-main);
+}
+
+.right_about {
+  display: flex;
+  flex-direction: column;
+}
+.details_calender {
+  /* margin-left: 1rem; */
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.age {
+  min-width: 100px;
+  max-width: 150px;
+  min-height: 70px;
+  max-height: 130px;
+  background-color: var(--dark-blue);
+  border-radius: 5px;
+  /* border: 1px dotted var(--blue-main); */
+}
+.country {
+  min-width: 128px;
+  max-width: 200px;
+  min-height: 70px;
+  max-height: 130px;
+  background-color: var(--dark-blue);
+  border-radius: 5px;
+}
+.education {
+  min-width: 210px;
+  max-width: 350px;
+  min-height: 70px;
+  max-height: 130px;
+  background-color: var(--dark-blue);
+  border-radius: 5px;
+  /* border: 1px dotted var(--blue-main); */
+}
+
+.age,
+.education,
+.country {
+  border: 1px solid var(--blue-main);
+}
+
+.details_calender_content {
+  margin-inline: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cal_val {
+  margin-top: 3px;
+  font-family: "Calibri";
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.cal_header_text {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #8db6a8;
+}
+.cal_header_text i {
+  margin-left: 5px;
+}
+.flag {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.languages-text {
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.language {
+  margin: 2px;
+}
+.fa-play {
+  font-size: 12px;
+  color: #a24ba6;
+}
+.social_media {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+}
+.social_media_header {
+  color: var(--blue-main);
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+/* .social_media_header::before {
+  content: " ";
+  color: ;
+} */
+.social_media_icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.sm-links-btn span {
+  margin-left: 5px;
+}
+.sm-icons {
+  font-size: 15px;
+  color: var(--icon-color);
+}
+.sm-icons:hover {
+  color: var(--orange-color);
+  transition: all 0.3s ease-in-out;
+}
+.sm-links-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.sm-links-btn {
+  width: clamp(200px, 90vw, 400px);
+  height: 48px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-inline: 10px;
+}
+.instagram {
+  background: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+.github {
+  background: #000;
+}
+.hackerrank {
+  background: rgb(53, 76, 110);
+}
+.youtube {
+  background: #000;
+}
+.youtube span {
+  margin-left: 0;
+}
+.youtube img {
+  width: 40px;
+  height: 30px;
+}
+.tryhackme {
+  background: rgb(49, 55, 63);
+}
+.codepen {
+  background: #000;
+}
+.cssbattle {
+  background: rgb(255, 217, 0);
+  color: #000;
+  font-weight: bold;
+}
+.cssbattle img {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-main {
+    text-align: center;
+    margin-inline: 2rem;
+  }
+
+  .about-txt {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .row_about {
+    flex-direction: column;
+  }
+  .circle {
+    width: 250px;
+    height: 250px;
+    margin-left: 0;
+    align-self: center;
+  }
+  .details_calender {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}

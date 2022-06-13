@@ -1,0 +1,148 @@
+.contact-main {
+  font-size: 10px;
+  color: #969696;
+  margin-top: 6rem;
+  margin-bottom: 3.5rem;
+  height: 100%;
+  margin-inline: auto;
+}
+
+.header_contact {
+  color: var(--name-text-color);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-inline: 6rem;
+  font-family: monospace;
+}
+.header_contact::before {
+  content: "04. ";
+  color: var(--blue-main);
+}
+
+.contact-main .col {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.heading_sub {
+  font-size: 1.3rem;
+}
+.top_text_contact {
+  font-size: 1rem;
+  margin-block: 1.2rem;
+  color: var(--dark-violet);
+}
+.underline-a {
+  display: inline-block;
+  position: relative;
+}
+.underline-a:hover {
+  color: var(--blue-main);
+}
+.underline-a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-a:hover:after {
+  color: #0087ca;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.middle_text_contact {
+  font-size: 1.2rem;
+  margin-block: 8px;
+  color: var(--orange-color);
+}
+
+.contact-form {
+  margin-top: 1rem;
+  /* margin-inline: 10px !important; */
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+}
+
+.input {
+  border: 0;
+  min-width: 8rem;
+  width: 15rem;
+  max-width: 20rem;
+  border-bottom: 2px solid grey;
+  outline: 0;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.field_text {
+  display: flex;
+  align-self: flex-start;
+  font-size: 1.1rem;
+  margin-right: 20px;
+}
+.field_text_msg {
+  display: flex;
+  align-self: flex-start;
+  font-size: 1.1rem;
+}
+
+.field_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.message_box {
+  border: 0;
+  min-width: 10rem;
+  width: 15rem;
+  max-width: 20rem;
+  border-bottom: 2px solid grey;
+  outline: 0;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  word-break: break-word !important;
+  resize: none;
+}
+
+.submit_btn {
+  max-width: 100px;
+  min-width: 75px;
+  max-height: 20px;
+  min-height: 30px;
+  color: var(--secondary-color);
+  background-color: #2b2c2c;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 10px; */
+}
+@media screen and (max-width: 768px) {
+  .header_contact {
+    margin-inline: 0;
+  }
+  .contact-main {
+    text-align: center;
+  }
+}

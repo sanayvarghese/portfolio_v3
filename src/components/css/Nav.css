@@ -1,0 +1,177 @@
+:root {
+  --primary-color: #101010;
+  --secondary-color: #b2a2a2;
+  --navtext-main: #dddddd;
+  --blue-main: #07bbff;
+}
+@font-face {
+  font-family: Cascadia Code;
+  src: url(../../../public/fonts/CascadiaCode.ttf);
+}
+/* .nav-menu {
+  animation: reveal 1s ease;
+} */
+/* .nav-item:nth-child(1) {
+  animation: navreveal 0.5s ease;
+} */
+/* .nav-item:nth-child(2) {
+  animation: navreveal 1s ease;
+}
+.nav-item:nth-child(3) {
+  animation: navreveal 1.5s ease;
+}
+.nav-item:nth-child(4) {
+  animation: navreveal 2s ease;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 75px auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  background-color: var(--primary-color);
+  font-family: "Cascadia Code";
+  user-select: none;
+}
+.navbarblur {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 75px auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: rgb(16, 16, 16, 0.1);
+  backdrop-filter: blur(10px);
+  transition: 1s ease;
+  font-family: "Cascadia Code";
+}
+
+.nav-menu a {
+  color: var(--navtext-main);
+  text-decoration: none;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75%;
+}
+.logo {
+  font-size: 30px;
+  color: white;
+  margin: 15px;
+  margin-left: 40px;
+  width: 70px;
+  height: 70px;
+  /* animation: logorotate 1.5s ease-in-out; */
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.nav-menu a:hover {
+  color: var(--blue-main);
+  transition: ease-in-out 0.3s;
+}
+.nav-item .active {
+  color: var(--blue-main);
+  transition: ease-in-out 0.3s;
+}
+
+.hamburger {
+  display: none;
+}
+.home-nav,
+.about-nav,
+.work-nav,
+.contact-nav {
+  text-decoration: none !important;
+  list-style-type: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-family: "Cascadia Code";
+}
+.home-nav::before {
+  content: "01. ";
+  color: var(--blue-main);
+}
+.about-nav::before {
+  content: "02. ";
+  color: var(--blue-main);
+}
+.work-nav::before {
+  content: "03. ";
+  color: var(--blue-main);
+}
+.contact-nav::before {
+  content: "04. ";
+  color: var(--blue-main);
+}
+@media screen and (max-width: 968px) {
+  .navbar {
+    max-width: 100%;
+    max-width: 100%;
+  }
+  .navbarblur {
+    max-width: 100%;
+    max-width: 100%;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75%;
+    background: none;
+    color: #fff;
+    margin: 0 30px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 90px;
+    flex-direction: column;
+    background-color: #050505;
+    width: 100%;
+    height: 15rem;
+    z-index: 99;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .logo {
+    font-size: 30px;
+    color: white;
+    margin: 15px;
+    margin-left: 40px;
+    width: 65px;
+    height: 65px;
+  }
+}
+@keyframes navreveal {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: JetBrains;
+  src: url(../../../public/fonts/JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf);
+}
+.error-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: var(--name-text-color);
+  font-family: "JetBrains";
+  position: relative;
+  z-index: 2;
+}
+.error-page-title {
+  font-size: 10rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* underline text */
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.error-page-text {
+  margin-block: 10px;
+}
+.back-to-home {
+  background-color: var(--selection-color);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.back-to-home:hover {
+  background-color: var(--secondary-color);
+  color: var(--selection-color);
+}

@@ -1,0 +1,157 @@
+ {/* <WorkContainer
+            left="false"
+            github="https://github.com"
+            demo="http://dragongear.tk"
+            image={dragongear}
+            title="Dragon Gear"
+            description="A responsive static website made with HTML, CSS, Scss, and
+          JavaScript. Made at age of 14. Inspired By Travery Media"
+            tools1="VS Code"
+            tools2="JavaScript"
+            tools3="Scss"
+            tools4="Css"
+            tools5="Html"
+            description_color1="#2b1431"
+            description_color2="#2d0d37"
+            icon_color="#6c1f8a"
+          /> */}
+
+          {/* <WorkContainer
+            left="true"
+            github="https://github.com"
+            demo="http://dgurl.tk"
+            image={urlshortner}
+            title="URL Shortner"
+            description="Fast and efficient URL Shortener where you can shorten your long URL with custom key words."
+            tools1="Node.js"
+            tools2="Ejs"
+            tools3="Mongodb"
+            tools4="Css"
+            tools5="VS Code"
+            description_color1="#0A111C"
+            description_color2="#170D37"
+            icon_color="#1f388a"
+          /> */}
+          {/* <WorkContainer
+            left="false"
+            github="https://github.com"
+            install="https://install.com"
+            image={shoppinglist}
+            title="Shopping List"
+            description="Add your Shopping list items and make it accessible on multiple devices with offline support and secure authentication."
+            tools1="VS Code"
+            tools2="Expo"
+            tools3="Firebase"
+            tools4="React-Native"
+            description_color1="#0A1C19"
+            description_color2="#0D3715"
+            icon_color="#288a1f"
+          /> */}
+          <WorkContainer
+            left="true"
+            github="https://github.com"
+            demo="http://thundergear.tk"
+            image={thundergear}
+            title="Thunder Gear"
+            description="Thunder Gear is my first portfolio which was made at the age of 12. It is a static website"
+            tools1="Html"
+            tools2="Css"
+            tools3="JavaScript"
+            tools4="Atom"
+            description_color1="#1C0A0A"
+            description_color2="#370D0D"
+            icon_color="#8a1f1f"
+          />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <Folder
+                color="1"
+                title="DG Cloud"
+                description="Cloud storage where you can securely upload and store your photos, videos, and files"
+                github="https://github.com"
+                demo="http://dgcloud.ml"
+                tool1="React"
+                tool2="Firebase"
+                tool3="Css"
+                tool4="VS Code"
+              />
+              <Folder
+                color="2"
+                title="DG Login"
+                description="A Simple Login and Register webapp."
+                github="https://github.com"
+                demo="http://demo.com"
+                tool1="Node.js"
+                tool2="Mongodb"
+                tool3="Passport.js"
+                tool4="Ejs"
+              />
+              <Folder
+                color="3"
+                title="HTML Form x Google Sheets"
+                title_size="1.3rem"
+                description="A Simple way to connect Html form to Google Sheets and send data from the form"
+                github="https://github.com"
+                docs="http://docs.sanayvarghese.tk"
+                tool1="Html"
+                tool2="Google Sheets"
+                tool3="AppScript"
+                tool4="JavaScript"
+              />
+
+
+
+
+
+
+
+
+
+               <Folder
+                color="2"
+                title="TIC TAC TOE"
+                description="Unbeatable TIC TAC TOE game with simple UI"
+                github="https://github.com"
+                demo="http://demo.com"
+                tool1="Html"
+                tool2="Css"
+                tool3="JavaScript"
+                tool4="Atom"
+              />
+              <Folder
+                color="3"
+                title="Weight Converter"
+                description="Convert Weight into different Units of Weight. Inspired By Traversy Media"
+                github="https://github.com"
+                demo="http://demo.com"
+                tool1="Html"
+                tool2="Bootstrap"
+                tool3="JavaScript"
+                tool4="Atom"
+              />
+              <Folder
+                color="1"
+                title="Rock Paper Scissors"
+                description="A Simple Rock Paper Scissors game against the computer. Inspired By Dev Ed"
+                github="https://github.com"
+                demo="http://demo.com"
+                tool1="Html"
+                tool2="Bootstrap"
+                tool3="JavaScript"
+                tool4="Atom"
+              />

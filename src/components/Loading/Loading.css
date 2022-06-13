@@ -1,0 +1,14 @@
+.loading_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #101010;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading_logo {
+  width: 70px;
+  height: 70px;
+}
