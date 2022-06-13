@@ -69,6 +69,7 @@
 .right_about {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
 }
 .details_calender {
   /* margin-left: 1rem; */

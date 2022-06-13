@@ -5,15 +5,17 @@ import "./css/Work_Container.css";
 
 function WorkContainer(props) {
   const { ref: workcontaineref, inView } = useInView({ triggerOnce: true });
+  // eslint-disable-next-line
   const workcontaineranimation = useAnimation();
 
   useEffect(() => {
     if (inView) {
+      // eslint-disable-next-line
       workcontaineranimation.start({
         y: [80, 0],
         opacity: [0, 1],
         transition: {
-          duration: 2,
+          duration: 1.5,
           delay: 0.2,
           type: "spring",
           bounce: 0.5,
@@ -22,10 +24,12 @@ function WorkContainer(props) {
         },
       });
     } else {
+      // eslint-disable-next-line
       workcontaineranimation.start({
         opacity: 0,
       });
     }
+    // eslint-disable-next-line
   }, [inView]);
 
   const left = props.left === "true";
@@ -57,6 +61,7 @@ function WorkContainer(props) {
               backgroundRepeat: "no-repeat",
               filter: "grayscale(100%)",
             }}
+            onClick={props.onClick}
           ></motion.div>
           <div className="right_left">
             <div className="col">
@@ -136,6 +141,21 @@ function WorkContainer(props) {
                       ></motion.i>
                     </a>
                   ) : null}
+                  {codepen != null ? (
+                    <a
+                      href={codepen}
+                      target="_blank"
+                      download
+                      className="link_work"
+                      rel="noreferrer"
+                      title="Download"
+                    >
+                      <motion.i
+                        className="fa-brands fa-codepen"
+                        whileHover={{ color: props.icon_color }}
+                      ></motion.i>
+                    </a>
+                  ) : null}
                 </div>
               </div>
             </div>
@@ -159,7 +179,7 @@ function WorkContainer(props) {
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               }}
-              onClick={props.onclick}
+              onClick={props.imageonclick}
             ></motion.div>
           ) : (
             <motion.div

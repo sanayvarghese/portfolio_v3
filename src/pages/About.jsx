@@ -15,15 +15,17 @@ import cssbattle from "../images/cssbattle.png";
 
 function About() {
   const { ref: aboutref, inView } = useInView({ triggerOnce: true });
+  // eslint-disable-next-line
   const aboutanimation = useAnimation();
 
   useEffect(() => {
     if (inView) {
+      // eslint-disable-next-line
       aboutanimation.start({
         y: [80, 0],
         opacity: [0, 1],
         transition: {
-          duration: 2,
+          duration: 1.5,
           delay: 0.2,
           type: "spring",
           bounce: 0.5,
@@ -32,10 +34,12 @@ function About() {
         },
       });
     } else {
+      // eslint-disable-next-line
       aboutanimation.start({
         opacity: 0,
       });
     }
+    // eslint-disable-next-line
   }, [inView]);
   return (
     <>

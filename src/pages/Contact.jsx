@@ -7,15 +7,17 @@ import { useInView } from "react-intersection-observer";
 
 function Contact() {
   const { ref: contactref, inView } = useInView({ triggerOnce: true });
+  // eslint-disable-next-line
   const contactanimation = useAnimation();
 
   useEffect(() => {
     if (inView) {
+      // eslint-disable-next-line
       contactanimation.start({
         y: [80, 0],
         opacity: [0, 1],
         transition: {
-          duration: 2,
+          duration: 1.5,
           delay: 0.5,
           type: "spring",
           bounce: 0.5,
@@ -24,10 +26,12 @@ function Contact() {
         },
       });
     } else {
+      // eslint-disable-next-line
       contactanimation.start({
         opacity: 0,
       });
     }
+    // eslint-disable-next-line
   }, [inView]);
 
   const [openModal, setOpenModal] = useState(false);

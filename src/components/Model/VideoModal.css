@@ -1,0 +1,86 @@
+.videooverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  color: var(--secondary-color);
+  transition: all 0.2 ease;
+}
+
+.videomodalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  max-height: 600px;
+  width: 90%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border: 0.5px solid rgba(170, 170, 170, 0.479);
+  background-color: #161616;
+  box-shadow: 0px 0px 18px 0px rgb(0, 0, 0);
+  border-radius: 8px;
+  transition: all 0.2 ease;
+}
+
+.videocloseBtn {
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  color: rgb(219, 51, 51);
+}
+
+.videocontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+}
+.videocontent p {
+  font-size: 12px;
+}
+.videocontent h1 {
+  color: var(--blue-main);
+}
+.videobtnContainer {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+.videobtnContainer button {
+  width: 100px;
+  margin-inline: 0.5rem;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.videobtnOutline {
+  background-color: var(--name-text-color);
+  color: var(--primary-color);
+}
+
+.fa-close {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .videomodalContainer {
+    width: 90%;
+    max-width: 90%;
+    max-height: 80%;
+  }
+  .videocontent {
+    margin-top: 1px;
+    padding: 1rem;
+    overflow: hidden;
+  }
+}
