@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 import "./css/About.css";
 import logo from "../images/logo.png";
-import flag from "./flag.png";
+import flag from "../images/flag.png";
 import codepenlogo from "../images/codepen.png";
 import githublogo from "../images/github.png";
 import hackerranklogo from "../images/hackerrank.png";
@@ -9,9 +12,6 @@ import instagramlogo from "../images/insta.png";
 import thmlogo from "../images/thm.png";
 import ytlogo from "../images/yt.png";
 import cssbattle from "../images/cssbattle.png";
-
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 
 function About() {
   const { ref: aboutref, inView } = useInView({ triggerOnce: true });

@@ -23,7 +23,7 @@ function Work() {
       image: dragongear,
       title: "Dragon Gear",
       description:
-        "A responsive static website made with HTML, CSS, Scss, and JavaScript. Made at age of 14. Inspired By Travery Media",
+        "A responsive static website made with HTML, CSS, Scss, and JavaScript. Made at age of 13. Inspired By Travery Media",
       tools1: "VS Code",
       tools2: "JavaScript",
       tools3: "Scss",

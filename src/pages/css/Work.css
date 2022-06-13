@@ -56,21 +56,22 @@
 .folders {
   display: flex;
   flex-direction: row;
-  gap: 3.5rem;
+  gap: 1rem;
   justify-content: center;
-  margin-block: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 .section-two {
   display: flex;
   flex-direction: row;
-  gap: 3.5rem;
+  gap: 1rem;
   justify-content: center;
 }
 .last_section {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .half_section {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .showbtn {
