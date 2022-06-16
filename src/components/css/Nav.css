@@ -8,35 +8,25 @@
   font-family: Cascadia Code;
   src: url(../../../public/fonts/CascadiaCode.ttf);
 }
-/* .nav-menu {
-  animation: reveal 1s ease;
-} */
-/* .nav-item:nth-child(1) {
-  animation: navreveal 0.5s ease;
-} */
-/* .nav-item:nth-child(2) {
-  animation: navreveal 1s ease;
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
-.nav-item:nth-child(3) {
-  animation: navreveal 1.5s ease;
-}
-.nav-item:nth-child(4) {
-  animation: navreveal 2s ease;
-} */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   height: 75px auto;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 99;
   transition: 0.3s ease-in;
-  overflow: hidden;
-  background-color: var(--primary-color);
+  /* overflow: hidden; */
+  background-color: transparent;
   font-family: "Cascadia Code";
   user-select: none;
 }
@@ -44,14 +34,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   height: 75px auto;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  background-color: rgb(16, 16, 16, 0.1);
-  backdrop-filter: blur(10px);
+
+  background-color: rgb(16, 16, 16, 0.2);
+  backdrop-filter: blur(12px);
   transition: 1s ease;
   font-family: "Cascadia Code";
 }
@@ -74,7 +60,6 @@
   margin-left: 40px;
   width: 70px;
   height: 70px;
-  /* animation: logorotate 1.5s ease-in-out; */
   transform-origin: center;
   transform-box: fill-box;
 }
@@ -122,6 +107,7 @@
 @media screen and (max-width: 968px) {
   .navbar {
     max-width: 100%;
+    width: 65px auto;
     max-width: 100%;
   }
   .navbarblur {
@@ -146,7 +132,7 @@
     flex-direction: column;
     background-color: #050505;
     width: 100%;
-    height: 15rem;
+    height: 18rem;
     z-index: 99;
     text-align: center;
     transition: 0.3s;
@@ -161,10 +147,40 @@
     color: white;
     margin: 15px;
     margin-left: 40px;
-    width: 65px;
-    height: 65px;
+    width: 58px;
+    height: 58px;
+  }
+  .nav_outlinedbtn {
+    margin-left: 0rem;
   }
 }
+
+.nav_outlinedbtn {
+  background-color: transparent;
+  border: 1px solid var(--blue-main);
+  box-shadow: 1px 1px 1px 1px #000;
+  color: var(--blue-main) !important;
+  font-size: 15px;
+  padding: 8px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-family: "Calibre";
+  text-decoration: none !important;
+  list-style-type: none;
+  border-radius: 5px;
+  margin-right: 1.2rem;
+}
+.nav_outlinedbtn a {
+  color: var(--blue-main) !important;
+  text-align: center;
+  font-size: 18px;
+}
+.nav_outlinedbtn:hover {
+  background-color: #07bdff15;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
 @keyframes navreveal {
   from {
     opacity: 0;

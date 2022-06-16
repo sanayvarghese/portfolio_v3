@@ -12,6 +12,7 @@ import instagramlogo from "../images/insta.png";
 import thmlogo from "../images/thm.png";
 import ytlogo from "../images/yt.png";
 import cssbattle from "../images/cssbattle.png";
+import blog from "../images/blog.png";
 
 function About() {
   const { ref: aboutref, inView } = useInView({ triggerOnce: true });
@@ -235,6 +236,15 @@ function About() {
               >
                 <img src={cssbattle} alt=" " />
                 <span>CssBattle</span>
+              </motion.a>
+              <motion.a
+                href="https://blog.sanayvarghese.tk/"
+                className="sm-links-btn blog"
+                whileHover={{ scale: 1.05, boxShadow: "1px 1px 1px 1px #000" }}
+                title="Blog"
+              >
+                <img src={blog} alt=" " />
+                <span>Blog</span>
               </motion.a>
             </div>
           </div>

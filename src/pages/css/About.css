@@ -216,6 +216,7 @@
   margin-top: 10px;
   margin-inline: 10px;
 }
+
 .instagram {
   background: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
 }
@@ -249,6 +250,13 @@
 .cssbattle img {
   width: 25px;
   height: 25px;
+}
+.blog {
+  background: #000;
+}
+.blog img {
+  width: 15px;
+  height: 18px;
 }
 
 @media screen and (max-width: 768px) {

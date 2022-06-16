@@ -20,11 +20,11 @@ function Work() {
   const folderslist = [
     {
       color: "1",
-      title: "DG Cloud",
+      title: "CloudGun",
       description:
         "Cloud storage where you can securely upload and store your photos, videos, and files",
-      github: "https://github.com",
-      demo: "http://dgcloud.ml",
+      github: "https://github.com/sanayvarghese/Cloud_Gun",
+      demo: "https://cloudgun.sanayvarghese.tk/",
       tool1: "React",
       tool2: "Firebase",
       tool3: "Css",
@@ -32,14 +32,13 @@ function Work() {
     },
     {
       color: "2",
-      title: "DG Login",
-      description: "A Simple Login and Register webapp.",
-      github: "https://github.com",
-      demo: "http://demo.com",
-      tool1: "Node.js",
-      tool2: "Mongodb",
-      tool3: "Passport.js",
-      tool4: "Ejs",
+      title: "Google Sheets x Excel",
+      description:
+        "Free and easy way to connet Microsoft Excel with Google Sheet for realtime data.",
+      docs: "https://blog.sanayvarghese.tk/posts/sync-excel-googlesheet/",
+      demo: "https://linkifly.tk/excelxsheets_demo",
+      tool1: "Microsoft Excel",
+      tool2: "Google Sheets",
     },
     {
       color: "3",
@@ -47,8 +46,8 @@ function Work() {
       title_size: "1.3rem",
       description:
         "A Simple way to connect Html form to Google Sheets and send data from the form",
-      github: "https://github.com",
-      docs: "http://docs.sanayvarghese.tk",
+      github: "https://github.com/sanayvarghese/html_x_googlesheet",
+      docs: "https://blog.sanayvarghese.tk/posts/html-googlesheets/",
       tool1: "Html",
       tool2: "Google Sheets",
       tool3: "AppScript",
@@ -140,11 +139,11 @@ function Work() {
         <div className="container">
           <WorkContainer
             left="false"
-            github="https://github.com"
-            demo="http://dragongear.tk"
+            github="https://github.com/sanayvarghese/dragongear.tk"
+            demo="https://dragongear.tk"
             image={dragongear}
             title="Dragon Gear"
-            description="A responsive static website made with HTML, CSS, Scss, and
+            description="A minimal, responsive static website made with HTML, CSS, Scss, and
           JavaScript. Made at age of 14. Inspired By Travery Media"
             tools1="VS Code"
             tools2="JavaScript"
@@ -158,10 +157,10 @@ function Work() {
 
           <WorkContainer
             left="true"
-            github="https://github.com"
-            demo="http://dgurl.tk"
+            github="https://github.com/sanayvarghese/Linkifly"
+            demo="https://linkifly.tk/"
             image={urlshortner}
-            title="URL Shortner"
+            title="Linkifly URL Shortner"
             description="Fast and efficient URL Shortener where you can shorten your long URL with custom key words."
             tools1="Node.js"
             tools2="Ejs"
@@ -174,8 +173,8 @@ function Work() {
           />
           <WorkContainer
             left="false"
-            github="https://github.com"
-            install="https://install.com"
+            github="https://github.com/sanayvarghese/Shopping_List"
+            install="https://linkifly.tk/shoppinglist"
             image={shoppinglist}
             title="Shopping List"
             description="Add your Shopping list items and make it accessible on multiple devices with offline support and secure authentication."
@@ -192,7 +191,7 @@ function Work() {
           />
           <WorkContainer
             left="true"
-            github="https://github.com"
+            github="https://github.com/sanayvarghese/thundergear"
             demo="http://thundergear.tk"
             image={thundergear}
             title="Thunder Gear"
@@ -247,32 +246,33 @@ function Work() {
             >
               <Folder
                 color="2"
-                title="TIC TAC TOE"
-                description="Unbeatable TIC TAC TOE game with simple UI"
+                title="DG Login"
+                description="A Simple Login and Register webapp."
                 github="https://github.com"
                 demo="http://demo.com"
+                tool1="Node.js"
+                tool2="Mongodb"
+                tool3="Passport.js"
+                tool4="Ejs"
+              />
+              <Folder
+                color="3"
+                title="TIC TAC TOE"
+                description="Unbeatable TIC TAC TOE game with simple UI"
+                github="https://github.com/sanayvarghese/TicTacToe"
+                demo="https://tictactoe.sanayvarghese.tk/"
                 tool1="Html"
                 tool2="Css"
                 tool3="JavaScript"
                 tool4="Atom"
               />
-              <Folder
-                color="3"
-                title="Weight Converter"
-                description="Convert Weight into different Units of Weight. Inspired By Traversy Media"
-                github="https://github.com"
-                demo="http://demo.com"
-                tool1="Html"
-                tool2="Bootstrap"
-                tool3="JavaScript"
-                tool4="Atom"
-              />
+
               <Folder
                 color="1"
                 title="Rock Paper Scissors"
                 description="A Simple Rock Paper Scissors game against the computer. Inspired By Dev Ed"
-                github="https://github.com"
-                demo="http://demo.com"
+                github="https://github.com/sanayvarghese/rockpaperscissors"
+                demo="https://rockpaperscissors.sanayvarghese.tk/"
                 tool1="Html"
                 tool2="Bootstrap"
                 tool3="JavaScript"
@@ -285,9 +285,20 @@ function Work() {
               }
             >
               <Folder
-                color="2"
+                color="3"
                 title="Word Scorer"
                 description="Webapp to Increase your typing speed. Type the words shown on screen in 3 seconds and earn your score"
+                github="https://github.com/sanayvarghese/Word_Scorer"
+                demo="https://wordscorer.sanayvarghese.tk/"
+                tool1="Html"
+                tool2="Bootstrap"
+                tool3="JavaScript"
+                tool4="Atom"
+              />
+              <Folder
+                color="1"
+                title="Weight Converter"
+                description="Convert Weight into different Units of Weight. Inspired By Traversy Media"
                 github="https://github.com"
                 demo="http://demo.com"
                 tool1="Html"
@@ -296,11 +307,11 @@ function Work() {
                 tool4="Atom"
               />
               <Folder
-                color="3"
+                color="2"
                 title="Text to Speeh"
                 description="Change some Text to speech in different voice. You can also change Pitch and speed of the voice"
-                github="https://github.com"
-                demo="http://demo.com"
+                github="https://github.com/sanayvarghese/text-to-speech"
+                demo="https://text-speech.sanayvarghese.tk/"
                 tool1="Html"
                 tool2="Bootstrap"
                 tool3="JavaScript"
