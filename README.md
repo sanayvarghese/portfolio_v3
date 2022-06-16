@@ -6,7 +6,7 @@
 </h1>
 <p align="center">
   Version 3 of my Protfolio website built with <a href="https://reactjs.org/" target="_blank">React</a> and hosted with
-  <a href="https://www.netlify.com/" target="_blank">Netlify</a> and managed with <a href="https://cloudflare.com/" target="_blank">Cloudflare CDN</a>
+  <a href="https://pages.cloudflare.com/" target="_blank">CloudFlare Pages</a> and managed with <a href="https://cloudflare.com/" target="_blank">Cloudflare CDN</a>
 
 </p>
 <p align="center">
