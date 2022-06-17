@@ -15,8 +15,8 @@
   <a href="https://github.com/sanayvarghese/dragongear.tk" target="_blank">v2</a>
 </p>
 <p align="center">
-  <a href="https://app.netlify.com/sites/sanayvarghese/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/64129cf3-1c6c-4ed5-88ee-3db5622345f2/deploy-status" alt="Netlify Status" />
+  <a href="https://sanayvarghese.tk" target="_blank">
+    Demo🌏
   </a>
 </p>
 

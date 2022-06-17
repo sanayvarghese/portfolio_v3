@@ -8,7 +8,7 @@ import VideoModal from "../components/Model/VideoModal";
 
 // Projects Images
 
-import shoppinglist from "../images/Projects/new.jpg";
+import shoppinglist from "../images/Projects/shoppinglist.jpg";
 import dragongear from "../images/Projects/dragongear.PNG";
 import thundergear from "../images/Projects/thundergear.PNG";
 import urlshortner from "../images/Projects/urlshortner.PNG";
@@ -20,11 +20,11 @@ function Work() {
   const folderslist = [
     {
       color: "1",
-      title: "CloudGun",
+      title: "Cloud Gun",
       description:
         "Cloud storage where you can securely upload and store your photos, videos, and files",
       github: "https://github.com/sanayvarghese/Cloud_Gun",
-      demo: "https://cloudgun.sanayvarghese.tk/",
+      demo: "https://cloudgun.tk/",
       tool1: "React",
       tool2: "Firebase",
       tool3: "Css",

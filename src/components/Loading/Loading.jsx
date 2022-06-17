@@ -7,8 +7,7 @@ function Loading() {
   const zoomin = {
     opacity: [0, 1],
     transition: {
-      duration: 1,
-      delay: 0.5,
+      duration: 1.5,
     },
   };
   const logoanimation = {
@@ -16,14 +15,14 @@ function Loading() {
 
     transition: {
       duration: 2.2,
-      delay: 1,
+      delay: 0.5,
     },
   };
   const exit = {
     opacity: [1, 0],
     transition: {
       duration: 1,
-      delay: 4,
+      delay: 3,
     },
   };
 
@@ -36,6 +35,7 @@ function Loading() {
               src={logo}
               alt=""
               animate={exit}
+              title="Logo"
               className="loading_logo"
             />
           </motion.div>

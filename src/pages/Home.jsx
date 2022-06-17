@@ -1,7 +1,6 @@
 import React from "react";
 import "./css/Home.css";
 import { motion } from "framer-motion";
-// import "./css/all.min.css";
 
 function Home() {
   window.addEventListener("load", () => {
@@ -14,7 +13,7 @@ function Home() {
         <motion.div
           className="textdiv"
           animate={{ y: [-100, 0], opacity: [0, 1] }}
-          transition={{ duration: 1.8, delay: 1 }}
+          transition={{ duration: 1.8, delay: 0.5 }}
         >
           <p className="basic-text">Hi there 👋, I'm</p>
           <p className="big-text">Sanay George Varghese.</p>
@@ -26,7 +25,7 @@ function Home() {
         <motion.div
           className="links-left"
           animate={{ y: 0, opacity: [0, 1] }}
-          transition={{ duration: 2, delay: 2.1 }}
+          transition={{ duration: 2, delay: 1.6 }}
         >
           <a
             href="https://github.com/sanayvarghese"
@@ -68,7 +67,7 @@ function Home() {
         <motion.div
           className="emaildiv"
           animate={{ y: 0, opacity: [0, 1] }}
-          transition={{ duration: 2, delay: 2.1 }}
+          transition={{ duration: 2, delay: 1.6 }}
         >
           <a
             className="email"

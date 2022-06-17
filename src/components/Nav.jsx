@@ -42,7 +42,7 @@ const Navbar = () => {
             className="logo"
             alt="L:ogo"
             animate={{ rotate: [0, 0, 360], scale: [0, 1], opacity: [0, 1] }}
-            transition={{ duration: 1.8, delay: 1 }}
+            transition={{ duration: 1.8, delay: 0.5 }}
           />
         </Link>
 
@@ -57,7 +57,7 @@ const Navbar = () => {
           <motion.li
             className="nav-item home-nav"
             animate={{ y: [-100, 0], opacity: [0, 1] }}
-            transition={{ duration: 2, delay: 0.5 }}
+            transition={{ duration: 2 }}
           >
             <Link
               to="home"
@@ -73,7 +73,7 @@ const Navbar = () => {
           <motion.li
             className="nav-item about-nav"
             animate={{ y: [-100, 0], opacity: [0, 1] }}
-            transition={{ duration: 2, delay: 1 }}
+            transition={{ duration: 2, delay: 0.5 }}
           >
             <Link
               to="about"
@@ -89,7 +89,7 @@ const Navbar = () => {
           <motion.li
             className="nav-item work-nav"
             animate={{ y: [-100, 0], opacity: [0, 1] }}
-            transition={{ duration: 2, delay: 1.5 }}
+            transition={{ duration: 2, delay: 1 }}
           >
             <Link
               to="work"
@@ -105,7 +105,7 @@ const Navbar = () => {
           <motion.li
             className="nav-item contact-nav"
             animate={{ y: [-100, 0], opacity: [0, 1] }}
-            transition={{ duration: 2, delay: 2 }}
+            transition={{ duration: 2, delay: 1.5 }}
           >
             <Link
               to="contact"
@@ -121,7 +121,7 @@ const Navbar = () => {
           <motion.li
             className="nav-item nav_outlinedbtn"
             animate={{ y: [-100, 0], opacity: [0, 1] }}
-            transition={{ duration: 2, delay: 2.5 }}
+            transition={{ duration: 2, delay: 2 }}
           >
             <a href="https://blog.sanayvarghese.tk">Blog</a>
           </motion.li>
