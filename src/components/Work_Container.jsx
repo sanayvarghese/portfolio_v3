@@ -34,7 +34,7 @@ function WorkContainer(props) {
 
   const left = props.left === "true";
 
-  const { demo, github, docs, install, codepen } = props;
+  const { demo, github, docs, install, codepen, promo } = props;
 
   return (
     <>
@@ -216,6 +216,14 @@ function WorkContainer(props) {
                   <span className="tool_name_right">{props.tools1}</span>
                 </div>
                 <div className="links_right">
+                  {promo != null ? (
+                    <div onClick={promo} className="link_work" title="Promo">
+                      <motion.i
+                        className="fa-solid fa-film"
+                        whileHover={{ color: props.icon_color }}
+                      ></motion.i>
+                    </div>
+                  ) : null}
                   {github != null ? (
                     <a
                       href={github}

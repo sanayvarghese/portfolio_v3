@@ -42,10 +42,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_omrain7",
-        "template_nmuq18s",
+        "service_6xrxm4k",
+        "template_9zmsk9m",
         e.target,
-        "FZEnORhjryZ3EOhhM"
+        "twUUnzQi3UuiONRvb"
       )
       .then(() => {
         contact_form.reset();

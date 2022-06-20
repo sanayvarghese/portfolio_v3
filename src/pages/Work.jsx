@@ -188,6 +188,9 @@ function Work() {
             imageonclick={() => {
               setOpenVideoModal(true);
             }}
+            promo={() => {
+              setOpenVideoModal(true);
+            }}
           />
           <WorkContainer
             left="true"

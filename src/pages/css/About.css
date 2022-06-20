@@ -57,13 +57,17 @@
   margin-left: 10%;
   background-color: transparent;
   border-radius: 50%;
+  overflow: hidden;
   /* align-self: center; */
   /* justify-content: center; */
   /* border: 5px solid var(--blue-main); */
 }
+.circle img {
+  object-fit: cover;
+}
 .circle:hover {
   transition: all 0.2s ease;
-  border: 5px solid var(--blue-main);
+  border: 3px solid var(--blue-main);
 }
 
 .right_about {
