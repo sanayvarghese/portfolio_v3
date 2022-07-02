@@ -1,14 +1,26 @@
 import React from "react";
 import "./css/Home.css";
 import { motion } from "framer-motion";
+import Confetti from "react-confetti";
+import BirthdayModal from "../components/Model/BirthdayModel";
+import { useWindowSize } from "react-use";
 
 function Home() {
+  const { width, height } = useWindowSize();
+
   window.addEventListener("load", () => {
     window.scrollTo(0, 0);
+  });
+  const [show, setShow] = React.useState(true);
+  React.useEffect(() => {
+    setTimeout(() => {
+      setShow(false);
+    }, 5000);
   });
 
   return (
     <div className="main" id="home">
+      <Confetti recycle={show} width={width - 10} height={height} />
       <div className="home">
         <motion.div
           className="textdiv"
@@ -19,6 +31,7 @@ function Home() {
           <p className="big-text">Sanay George Varghese.</p>
           <p className="basic-text2">STUDENT + DEVELOPER 👨‍💻</p>
           <p className="basic-text3">I'm a self-taught front-end developer.</p>
+          <BirthdayModal />
         </motion.div>
       </div>
       <div className="side">
