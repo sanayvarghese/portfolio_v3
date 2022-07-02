@@ -3,6 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import "./css/About.css";
+import face from "../images/face.jpeg"
 import flag from "../images/flag.png";
 import codepenlogo from "../images/codepen.png";
 import githublogo from "../images/github.png";
@@ -114,9 +115,7 @@ function About() {
             <div className="right_about">
               <div className="circle">
                 <img
-                  src={
-                    "https://firebasestorage.googleapis.com/v0/b/dgcloud1-b1c43.appspot.com/o/IMG_20220619_214052.jpg?alt=media&token=feb264c6-b76f-4a06-9016-4e686ae24b07"
-                  }
+                  src={face}
                   alt=""
                   style={{ width: "100%", height: "100%" }}
                 />
