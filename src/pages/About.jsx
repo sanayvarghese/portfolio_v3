@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import "./css/About.css";
-import face from "../images/face.jpeg"
+import face from "../images/face.jpeg";
 import flag from "../images/flag.png";
 import codepenlogo from "../images/codepen.png";
 import githublogo from "../images/github.png";
@@ -136,7 +136,7 @@ function About() {
                         style={{ color: "#444" }}
                       ></i>
                     </span>
-                    <span className="cal_val">16</span>
+                    <span className="cal_val">17</span>
                   </div>
                 </motion.div>
                 <motion.div
