@@ -36,7 +36,7 @@ function Home() {
             <i className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.instagram.com/_sanay_varghese_/"
+            href="https://www.instagram.com/s4n_xy._/"
             target="_blank"
             rel="noreferrer"
             title="Instagram"
