@@ -1,0 +1,15 @@
+{
+  "name": "Sanay Varghese",
+  "short_name": "Sanay Varghese",
+  "icons": [
+    {
+      "src": "/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "theme_color": "#101010",
+  "background_color": "#101010",
+  "display": "standalone"
+}

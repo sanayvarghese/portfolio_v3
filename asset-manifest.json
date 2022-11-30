@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09cbd28f.css",
+    "main.js": "/static/js/main.1dc1cfb9.js",
+    "static/media/JetBrains Mono Regular Nerd Font Complete.ttf": "/static/media/JetBrains Mono Regular Nerd Font Complete.3b05b33ffb9301cab04a.ttf",
+    "static/media/calibri-regular.ttf": "/static/media/calibri-regular.82e3b1641976f5409e1f.ttf",
+    "static/media/CascadiaCode.ttf": "/static/media/CascadiaCode.66741deedd204ca95dbe.ttf",
+    "static/media/dragongear.PNG": "/static/media/dragongear.65374c766b581792fc83.PNG",
+    "static/media/face.jpeg": "/static/media/face.c22d1e1bed4236f76f90.jpeg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/shoppinglist.jpg": "/static/media/shoppinglist.6a63e2fe77daaf976243.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/thundergear.PNG": "/static/media/thundergear.8eb2aea707d20e3a3169.PNG",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/codepen.png": "/static/media/codepen.8880cfc9075906c9a871.png",
+    "static/media/CalibreBold.otf": "/static/media/CalibreBold.bba4dd93e0dc972eedb6.otf",
+    "static/media/CalibreSemibold.otf": "/static/media/CalibreSemibold.508412ff4c6875e10aa1.otf",
+    "static/media/CalibreRegular.otf": "/static/media/CalibreRegular.84b1f95cc4641415a24e.otf",
+    "static/media/flag.png": "/static/media/flag.2f588eb207aeceeb6abb.png",
+    "static/media/yt.png": "/static/media/yt.ea75c013af7a737ecbfb.png",
+    "static/media/insta.png": "/static/media/insta.459d14acdbfb7db227e0.png",
+    "static/media/thm.png": "/static/media/thm.97879946fface98705c1.png",
+    "static/media/urlshortner.PNG": "/static/media/urlshortner.60dd490263705afc4eb8.PNG",
+    "static/media/cssbattle.png": "/static/media/cssbattle.7029cb0656f38bfcffd2.png",
+    "static/media/github.png": "/static/media/github.987334e9f782cc505f25.png",
+    "index.html": "/index.html",
+    "main.09cbd28f.css.map": "/static/css/main.09cbd28f.css.map",
+    "main.1dc1cfb9.js.map": "/static/js/main.1dc1cfb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09cbd28f.css",
+    "static/js/main.1dc1cfb9.js"
+  ]
+}
