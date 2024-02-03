@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import "./css/About.css";
-import face from "../images/face.jpeg";
+import face from "../images/face.jpg";
 import flag from "../images/flag.png";
 import codepenlogo from "../images/codepen.png";
 import githublogo from "../images/github.png";
@@ -175,7 +175,7 @@ function About() {
             <span className="social_media_header">Links</span>
             <div className="social_media_icons">
               <motion.a
-                href="https://www.instagram.com/s4n_xy._/"
+                href="https://www.instagram.com/sanay_.wh00/"
                 className="sm-links-btn instagram"
                 whileHover={{ scale: 1.05, boxShadow: "1px 1px 1px 1px #000" }}
                 title="Instagram"

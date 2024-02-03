@@ -67,8 +67,8 @@ function Contact() {
           <span className="top_text_contact">
             Feel free to send an email on{" "}
             <p className="underline-a">
-              <a href="mailto:contact@sanayvarghese.tk" title="Mail">
-                contact@sanayvarghese.tk
+              <a href="mailto:helloto.sanay@gmail.com" title="Mail">
+                helloto.sanay@gmail.com
               </a>
             </p>
           </span>

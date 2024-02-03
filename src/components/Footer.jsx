@@ -15,6 +15,7 @@ function Footer() {
             <span>Github</span>
           </i>
         </a>
+        <span className="footer_text">Build in 2021</span>
       </div>
     </>
   );
