@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8df9dc9f.css",
+    "main.css": "/static/css/main.f3c7128f.css",
     "main.js": "/static/js/main.268c59ad.js",
     "static/media/face.jpg": "/static/media/face.149fbb7ca3ccdb945cbe.jpg",
     "static/media/JetBrains Mono Regular Nerd Font Complete.ttf": "/static/media/JetBrains Mono Regular Nerd Font Complete.3b05b33ffb9301cab04a.ttf",
@@ -26,11 +26,11 @@
     "static/media/cssbattle.png": "/static/media/cssbattle.7029cb0656f38bfcffd2.png",
     "static/media/github.png": "/static/media/github.987334e9f782cc505f25.png",
     "index.html": "/index.html",
-    "main.8df9dc9f.css.map": "/static/css/main.8df9dc9f.css.map",
+    "main.f3c7128f.css.map": "/static/css/main.f3c7128f.css.map",
     "main.268c59ad.js.map": "/static/js/main.268c59ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.8df9dc9f.css",
+    "static/css/main.f3c7128f.css",
     "static/js/main.268c59ad.js"
   ]
 }
